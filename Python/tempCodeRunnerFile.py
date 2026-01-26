@@ -1,6 +1,5 @@
-x = y = z = 0
-# x = 7
-# y = 9
-
-# z = x + y
-# print('A soma de {} + {} é igual a {}'.format(x, y, z))
+for A in range (1,6):
+    print(f'\Conjunto {A}')
+    for B in range(5):
+        num = random.randint(1,100)
+        print(f'Valor: {num}')
