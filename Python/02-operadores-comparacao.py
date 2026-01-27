@@ -1,20 +1,31 @@
-
-
 """
-Operadores Aritméticos
+Operadores de Comparação
 
-Neste arquivo eu pratiquei operações matemáticas básicas, começando pela soma.
-Também pratiquei receber dados via input e converter para int.
+Neste exercício pratiquei:
+- comparação entre dois números
+- uso dos operadores ==, > e !=
+- atribuição de valores booleanos (True ou False)
+- leitura de dados do usuário com input
 """
-#Ex 1:
-x = 7
-y = 9
-z = x + y
-print('A soma de {} + {} é igual a {}'.format(x, y, z))
 
-#Ex 2:
-x = int(input("Digite um número: "))
-y = int(input("Digite outro número: "))
-z = x + y
-print('A soma de {} + {} é igual a {}'.format(x, y, z))
+
+# Ex 1: Operadores de comparação
+
+x = y = z = False
+n1 = n2 = 0
+
+n1 = int(input("Digite um número: "))
+n2 = int(input("Digite outro número: "))
+
+# Igualdade
+x = n1 == n2
+print("São iguais?", x, '\n')
+
+# Maior que
+z = n1 > n2
+print(n1, "é maior que", n2, "?", z, '\n')
+
+# Diferente
+y = n1 != n2
+print("São diferentes?", y)
 
