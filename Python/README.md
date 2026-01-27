@@ -2,17 +2,22 @@
 
 Esta pasta reúne exercícios básicos que fiz para consolidar lógica de programação e fundamentos da linguagem Python.
 
-**Como está organizado**
-- Cada arquivo representa um tópico específico
-- No topo de cada arquivo há um comentário explicando o objetivo do exercício
-- Os códigos são simples e focados em fixação
+## Como está organizado  
+- Cada arquivo representa um tópico específico  
+- No topo de cada arquivo há um comentário explicando o objetivo do exercício  
+- Os códigos são simples e focados em fixação  
 
-**Tópicos**
-1. Operadores lógicos
-2. Operadores de comparação
-3. Operadores aritméticos
-4. Print e formatação
-5. Variáveis e tipos
-6. While e controle com `break`
-7. Condicionais
-8. For, range e `continue`
+## Tópicos  
+1. Operadores lógicos  
+2. Operadores de comparação  
+3. Operadores aritméticos  
+4. Print e formatação  
+5. Variáveis e tipos  
+6. While e controle com `break`  
+7. Condicionais  
+8. For, range e `continue`  
+9. Laços encadeados (loops dentro de loops)  
+10. Módulo random (números aleatórios, escolha e embaralhamento)  
+11. Listas (criação, manipulação, métodos básicos)  
+12. Tuplas (imutabilidade, operações permitidas, conversão para lista)  
+
